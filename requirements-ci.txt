@@ -21,4 +21,5 @@ regex==2026.7.10
 diffusers==0.39.0
 timm==1.0.28
 cvxpy==1.9.2
+gdown==6.1.0
 pytest==9.1.1

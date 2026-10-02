@@ -1,6 +1,8 @@
 """Derived method-role predicates match the expected registry buckets."""
 from __future__ import annotations
 
+import pytest
+
 from afrlib import AFR_REGISTRY
 from afrbench.protocol import bakes_target, method_roles, protects_per_target, uses_target_pool
 
@@ -14,6 +16,10 @@ EXPECTED_POOL = frozenset({"tip_im", "divtrackee"})
 
 
 def test_derived_sets_equal_literals():
+    # Walking the lazy registry imports every method; pytorch3d and dlib are
+    # source-build-only dependencies of protego and amt_gan.
+    pytest.importorskip("pytorch3d")
+    pytest.importorskip("dlib")
     baked = frozenset(name for name in AFR_REGISTRY if bakes_target(name))
     per_target = frozenset(name for name in AFR_REGISTRY if protects_per_target(name))
     pool = frozenset(name for name in AFR_REGISTRY if uses_target_pool(name))
@@ -23,6 +29,8 @@ def test_derived_sets_equal_literals():
 
 
 def test_every_method_in_exactly_one_bucket():
+    pytest.importorskip("pytorch3d")
+    pytest.importorskip("dlib")
     seen = []
     for name in AFR_REGISTRY:
         roles = method_roles(AFR_REGISTRY[name])
