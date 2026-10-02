@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# Outputs and local data
+results/
+runs/
+/data/*
+!/data/afrbench-basic/
+*.lmdb/

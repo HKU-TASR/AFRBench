@@ -1,0 +1,5 @@
+CLIP2Protect: "CLIP2Protect: Protecting Facial Privacy Using Text-Guided Makeup via Adversarial Latent Search" (CVPR 2023).
+
+This implementation is adapted from the authors' code in https://github.com/fahadshamshad/Clip2Protect,
+which does not include a license file. Rights to that code remain with its
+authors; it is included here for research reproducibility. See THIRD_PARTY.md.

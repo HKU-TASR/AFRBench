@@ -1,0 +1,5 @@
+DiffAM: "DiffAM: Diffusion-based Adversarial Makeup Transfer for Facial Privacy Protection" (CVPR 2024).
+
+This implementation is adapted from the authors' code in https://github.com/HansSunY/DiffAM,
+which does not include a license file. Rights to that code remain with its
+authors; it is included here for research reproducibility. See THIRD_PARTY.md.

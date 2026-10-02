@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "afrbench"
+version = "1.0.0"
+description = "AFRLib, a library of anti-facial-recognition methods, and AFRBench, a benchmark for them."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "HKU Trustworthy AI and Systems Research (TASR) Lab" }]
+keywords = ["face recognition", "privacy", "adversarial examples", "benchmark"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.1",
+    "torchvision",
+    "frbench>=1.1",
+    "numpy",
+    "scipy",
+    "pandas",
+    "pillow",
+    "opencv-python-headless",
+    "scikit-image",
+    "pyyaml",
+    "tqdm",
+    "requests",
+    "lmdb",
+    "gdown",
+    "huggingface_hub",
+    "lpips",
+    "pytorch-msssim",
+    "pyiqa",
+    "torch-fidelity",
+]
+
+[project.optional-dependencies]
+# Dependencies of individual methods; setup.sh installs all of them.
+methods = [
+    "einops",
+    "omegaconf",
+    "pytorch-lightning",
+    "transformers",
+    "diffusers",
+    "accelerate",
+    "open_clip_torch",
+    "timm",
+    "ftfy",
+    "regex",
+    "albumentations",
+    "cvxpy",
+    "facenet-pytorch",
+    "insightface",
+    "onnxruntime",
+    "scikit-learn",
+    "kagglehub",
+    "dlib",
+    "ninja",
+    "setuptools<81",
+    "clip @ git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+]
+at3d = ["tensorflow", "mtcnn"]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/HKU-TASR/AFRBench"
+
+[tool.setuptools.packages.find]
+include = ["afrlib*", "afrbench*"]
+
+[tool.setuptools.package-data]
+"*" = [
+    "*.yaml", "*.csv", "*.npy", "*.npz", "*.png", "*.pt", "*.pkl", "*.obj", "*.gz",
+    "*.cu", "*.cpp", "*.h", "LICENSE*", "NOTICE*",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

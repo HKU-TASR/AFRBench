@@ -1,0 +1,5 @@
+LowKey: "LowKey: Leveraging Adversarial Attacks to Protect Social Media Users from Facial Recognition" (ICLR 2021).
+
+This implementation is adapted from the authors' code in the supplementary material of the ICLR 2021 paper (https://openreview.net/forum?id=hJmtwocEqzc),
+which does not include a license file. Rights to that code remain with its
+authors; it is included here for research reproducibility. See THIRD_PARTY.md.

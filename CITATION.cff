@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use AFRBench, please cite Protego, the work it builds on."
+title: "AFRBench"
+type: software
+url: "https://github.com/HKU-TASR/AFRBench"
+license: MIT
+authors:
+  - name: "HKU Trustworthy AI and Systems Research (TASR) Lab"
+preferred-citation:
+  type: conference-paper
+  title: "Protego: User-Centric Pose-Invariant Privacy Protection Against Face Recognition-Induced Digital Footprint Exposure"
+  authors:
+    - given-names: Ziling
+      family-names: Wang
+    - given-names: Shuya
+      family-names: Yang
+    - given-names: Jialin
+      family-names: Lu
+    - given-names: Ka-Ho
+      family-names: Chow
+  collection-title: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2026

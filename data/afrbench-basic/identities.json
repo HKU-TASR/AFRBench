@@ -1,0 +1,490 @@
+{
+ "schema": "afrbench-identities-v4",
+ "identities": {
+  "Matthew_Gray_Gubler": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jason_Behr": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jonathan_Sadowski": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Amaury_Nolasco": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Patrick_Warburton": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Sam_Rockwell": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jackson_Rathbone": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jeremy_Sisto": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Brendan_Fraser": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Billy_Zane": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "John_Cusack": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Christopher_Lloyd": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Brad_Garrett": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Geoffrey_Rush": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Joshua_Jackson": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Kellan_Lutz": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Anthony_Hopkins": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "James_Marsden": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jon_Voight": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Samuel_L._Jackson": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Peter_Sarsgaard": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Hector_Elizondo": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Michael_Weatherly": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Owen_Wilson": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jason_Bateman": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Tamara_Braun": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Adrienne_Frantz": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Kathy_Baker": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Carolyn_Hennesy": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Alley_Mills": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Tamala_Jones": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Sharon_Case": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Angell_Conwell": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Eliza_Coupe": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Peri_Gilpin": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Rebecca_Budig": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Faith_Ford": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Melissa_Fumero": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Valerie_Bertinelli": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "S._Epatha_Merkerson": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Kate_Linder": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Candace_Cameron_Bure": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Mayim_Bialik": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Morena_Baccarin": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Allison_Janney": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jane_Krakowski": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Marilu_Henner": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jennette_McCurdy": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Jane_Lynch": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "Eva_Longoria": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "245237": {
+   "role": "target",
+   "n_images": 1,
+   "mc_class_size": 428,
+   "enrollment_keys": [
+    "245237__0.jpg",
+    "245237__1.jpg",
+    "245237__10.jpg",
+    "245237__100.jpg",
+    "245237__101.jpg",
+    "245237__102.jpg",
+    "245237__103.jpg",
+    "245237__104.jpg",
+    "245237__105.jpg",
+    "245237__106.jpg",
+    "245237__107.jpg",
+    "245237__108.jpg",
+    "245237__109.jpg",
+    "245237__11.jpg",
+    "245237__110.jpg",
+    "245237__111.jpg",
+    "245237__112.jpg",
+    "245237__113.jpg",
+    "245237__114.jpg",
+    "245237__115.jpg"
+   ]
+  },
+  "103354": {
+   "role": "target",
+   "n_images": 1,
+   "mc_class_size": 331,
+   "enrollment_keys": [
+    "103354__0.jpg",
+    "103354__1.jpg",
+    "103354__10.jpg",
+    "103354__100.jpg",
+    "103354__101.jpg",
+    "103354__102.jpg",
+    "103354__103.jpg",
+    "103354__104.jpg",
+    "103354__105.jpg",
+    "103354__106.jpg",
+    "103354__107.jpg",
+    "103354__108.jpg",
+    "103354__109.jpg",
+    "103354__11.jpg",
+    "103354__110.jpg",
+    "103354__111.jpg",
+    "103354__112.jpg",
+    "103354__113.jpg",
+    "103354__114.jpg",
+    "103354__115.jpg"
+   ]
+  },
+  "6158": {
+   "role": "target",
+   "n_images": 1,
+   "mc_class_size": 138,
+   "enrollment_keys": [
+    "6158__0.jpg",
+    "6158__1.jpg",
+    "6158__10.jpg",
+    "6158__100.jpg",
+    "6158__101.jpg",
+    "6158__102.jpg",
+    "6158__103.jpg",
+    "6158__104.jpg",
+    "6158__105.jpg",
+    "6158__106.jpg",
+    "6158__107.jpg",
+    "6158__108.jpg",
+    "6158__109.jpg",
+    "6158__11.jpg",
+    "6158__110.jpg",
+    "6158__111.jpg",
+    "6158__112.jpg",
+    "6158__113.jpg",
+    "6158__114.jpg",
+    "6158__115.jpg"
+   ]
+  },
+  "55023": {
+   "role": "target",
+   "n_images": 1,
+   "mc_class_size": 138,
+   "enrollment_keys": [
+    "55023__0.jpg",
+    "55023__1.jpg",
+    "55023__10.jpg",
+    "55023__100.jpg",
+    "55023__101.jpg",
+    "55023__102.jpg",
+    "55023__103.jpg",
+    "55023__104.jpg",
+    "55023__105.jpg",
+    "55023__106.jpg",
+    "55023__107.jpg",
+    "55023__108.jpg",
+    "55023__109.jpg",
+    "55023__11.jpg",
+    "55023__110.jpg",
+    "55023__111.jpg",
+    "55023__112.jpg",
+    "55023__113.jpg",
+    "55023__114.jpg",
+    "55023__115.jpg"
+   ]
+  },
+  "126626": {
+   "role": "target",
+   "n_images": 1,
+   "mc_class_size": 111,
+   "enrollment_keys": [
+    "126626__0.jpg",
+    "126626__1.jpg",
+    "126626__10.jpg",
+    "126626__100.jpg",
+    "126626__101.jpg",
+    "126626__102.jpg",
+    "126626__103.jpg",
+    "126626__104.jpg",
+    "126626__105.jpg",
+    "126626__106.jpg",
+    "126626__107.jpg",
+    "126626__108.jpg",
+    "126626__109.jpg",
+    "126626__11.jpg",
+    "126626__110.jpg",
+    "126626__12.jpg",
+    "126626__13.jpg",
+    "126626__14.jpg",
+    "126626__15.jpg",
+    "126626__16.jpg"
+   ]
+  }
+ }
+}

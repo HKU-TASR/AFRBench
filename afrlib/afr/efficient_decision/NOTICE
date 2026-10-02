@@ -1,0 +1,5 @@
+Efficient Decision-based Attack: "Efficient Decision-based Black-box Adversarial Attacks on Face Recognition" (CVPR 2019).
+
+This implementation is adapted from the authors' code in https://github.com/sgmath12/efficient-decision-based-black-box-adversarial-attacks-on-face-recognition,
+which does not include a license file. Rights to that code remain with its
+authors; it is included here for research reproducibility. See THIRD_PARTY.md.

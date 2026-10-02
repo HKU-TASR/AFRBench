@@ -1,0 +1,8 @@
+Protego: "Protego: User-Centric Pose-Invariant Privacy Protection Against Face
+Recognition-Induced Digital Footprint Exposure" (CVPR 2026), by the AFRBench maintainers.
+Official code: https://github.com/HKU-TASR/Protego.
+
+The Protego code in this directory is written by the AFRBench maintainers and released
+under the MIT license in the repository root (LICENSE). The vendored SMIRK code keeps
+its license (smirk/LICENSE). The FLAME model files are subject to the FLAME license
+(https://flame.is.tue.mpg.de). See THIRD_PARTY.md.

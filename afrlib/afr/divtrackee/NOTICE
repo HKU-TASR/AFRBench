@@ -1,0 +1,5 @@
+DivTrackee: "DivTrackee versus DynTracker: Promoting Diversity in Anti-Facial Recognition against Dynamic FR Strategy" (CCS 2025).
+
+This implementation is adapted from the authors' code in https://github.com/fiora6/divtrackee,
+which does not include a license file. Rights to that code remain with its
+authors; it is included here for research reproducibility. See THIRD_PARTY.md.

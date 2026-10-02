@@ -1,0 +1,15 @@
+GIFT: "Transferable Adversarial Facial Images for Privacy Protection" (ACM MM 2024).
+Paper: https://dl.acm.org/doi/abs/10.1145/3664647.3681344
+
+Implemented by the AFRBench maintainers from the paper. This directory incorporates
+code from BDInvert (https://github.com/kkang831/BDInvert_Release), which is licensed under the
+GNU Affero General Public License v3.0:
+
+  - models/basecode_encoder.py (BDInvert's base-code encoder);
+  - models/genforce/stylegan2_generator.py (BDInvert's copy of the GenForce StyleGAN2
+    generator).
+
+The directory afrlib/afr/gift/ as a whole is therefore distributed under the
+AGPL-3.0 (see LICENSE). The GenForce generator (models/genforce/LICENSE, MIT) and the
+BiSeNet face parser from face-parsing.PyTorch (MIT) keep their own notices.
+See THIRD_PARTY.md.

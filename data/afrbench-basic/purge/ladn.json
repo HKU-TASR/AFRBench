@@ -1,0 +1,492 @@
+{
+  "schema": "afrbench-purge-v1",
+  "corpus": "ladn",
+  "key": "name",
+  "entries": [],
+  "method": "FR-ensemble cosine NN over 689 samples, threshold 0.45, 3 models; human-reviewed",
+  "sampled": 689,
+  "corpus_samples": 689,
+  "evidence": {
+    "Adrienne_Frantz": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Alley_Mills": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Allison_Janney": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Amaury_Nolasco": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Angell_Conwell": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Anthony_Hopkins": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Billy_Zane": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Brad_Garrett": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Brendan_Fraser": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Candace_Cameron_Bure": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Carolyn_Hennesy": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Christopher_Lloyd": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Eliza_Coupe": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Eva_Longoria": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Faith_Ford": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Geoffrey_Rush": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Hector_Elizondo": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jackson_Rathbone": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "James_Marsden": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jane_Krakowski": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jane_Lynch": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jason_Bateman": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jason_Behr": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jennette_McCurdy": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jeremy_Sisto": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "John_Cusack": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jon_Voight": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Jonathan_Sadowski": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Joshua_Jackson": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Kate_Linder": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Kathy_Baker": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Kellan_Lutz": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Marilu_Henner": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Matthew_Gray_Gubler": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Mayim_Bialik": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Melissa_Fumero": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Michael_Weatherly": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Morena_Baccarin": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Owen_Wilson": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Patrick_Warburton": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Peri_Gilpin": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Peter_Sarsgaard": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Rebecca_Budig": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "S._Epatha_Merkerson": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Sam_Rockwell": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Samuel_L._Jackson": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Sharon_Case": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Tamala_Jones": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Tamara_Braun": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    },
+    "Valerie_Bertinelli": {
+      "matched": [],
+      "samples": [],
+      "cosine": null,
+      "n_samples": 0,
+      "searched": true
+    }
+  },
+  "coverage": {
+    "searched": [
+      "Adrienne_Frantz",
+      "Alley_Mills",
+      "Allison_Janney",
+      "Amaury_Nolasco",
+      "Angell_Conwell",
+      "Anthony_Hopkins",
+      "Billy_Zane",
+      "Brad_Garrett",
+      "Brendan_Fraser",
+      "Candace_Cameron_Bure",
+      "Carolyn_Hennesy",
+      "Christopher_Lloyd",
+      "Eliza_Coupe",
+      "Eva_Longoria",
+      "Faith_Ford",
+      "Geoffrey_Rush",
+      "Hector_Elizondo",
+      "Jackson_Rathbone",
+      "James_Marsden",
+      "Jane_Krakowski",
+      "Jane_Lynch",
+      "Jason_Bateman",
+      "Jason_Behr",
+      "Jennette_McCurdy",
+      "Jeremy_Sisto",
+      "John_Cusack",
+      "Jon_Voight",
+      "Jonathan_Sadowski",
+      "Joshua_Jackson",
+      "Kate_Linder",
+      "Kathy_Baker",
+      "Kellan_Lutz",
+      "Marilu_Henner",
+      "Matthew_Gray_Gubler",
+      "Mayim_Bialik",
+      "Melissa_Fumero",
+      "Michael_Weatherly",
+      "Morena_Baccarin",
+      "Owen_Wilson",
+      "Patrick_Warburton",
+      "Peri_Gilpin",
+      "Peter_Sarsgaard",
+      "Rebecca_Budig",
+      "S._Epatha_Merkerson",
+      "Sam_Rockwell",
+      "Samuel_L._Jackson",
+      "Sharon_Case",
+      "Tamala_Jones",
+      "Tamara_Braun",
+      "Valerie_Bertinelli"
+    ],
+    "hits": [],
+    "no_hit": [
+      "Adrienne_Frantz",
+      "Alley_Mills",
+      "Allison_Janney",
+      "Amaury_Nolasco",
+      "Angell_Conwell",
+      "Anthony_Hopkins",
+      "Billy_Zane",
+      "Brad_Garrett",
+      "Brendan_Fraser",
+      "Candace_Cameron_Bure",
+      "Carolyn_Hennesy",
+      "Christopher_Lloyd",
+      "Eliza_Coupe",
+      "Eva_Longoria",
+      "Faith_Ford",
+      "Geoffrey_Rush",
+      "Hector_Elizondo",
+      "Jackson_Rathbone",
+      "James_Marsden",
+      "Jane_Krakowski",
+      "Jane_Lynch",
+      "Jason_Bateman",
+      "Jason_Behr",
+      "Jennette_McCurdy",
+      "Jeremy_Sisto",
+      "John_Cusack",
+      "Jon_Voight",
+      "Jonathan_Sadowski",
+      "Joshua_Jackson",
+      "Kate_Linder",
+      "Kathy_Baker",
+      "Kellan_Lutz",
+      "Marilu_Henner",
+      "Matthew_Gray_Gubler",
+      "Mayim_Bialik",
+      "Melissa_Fumero",
+      "Michael_Weatherly",
+      "Morena_Baccarin",
+      "Owen_Wilson",
+      "Patrick_Warburton",
+      "Peri_Gilpin",
+      "Peter_Sarsgaard",
+      "Rebecca_Budig",
+      "S._Epatha_Merkerson",
+      "Sam_Rockwell",
+      "Samuel_L._Jackson",
+      "Sharon_Case",
+      "Tamala_Jones",
+      "Tamara_Braun",
+      "Valerie_Bertinelli"
+    ]
+  },
+  "production": true,
+  "profile": "production",
+  "lock_id": "b8b922008ea40c5b89b6482f7e74be8c2dad89f6b521fa9b212a16d759145d38",
+  "artifact_id": "63db7e1ad547f23174c8f68c8942d0a14cf1cc3359a39cd257655e3cd9f80c24",
+  "kind": "purge:ladn",
+  "scientific": {
+    "schema": "afrbench-purge-v1",
+    "corpus": "ladn",
+    "key": "name",
+    "entries": [],
+    "method": "FR-ensemble cosine NN over 689 samples, threshold 0.45, 3 models; human-reviewed",
+    "lock_id": "b8b922008ea40c5b89b6482f7e74be8c2dad89f6b521fa9b212a16d759145d38",
+    "production": true
+  },
+  "parents": [
+    "b8b922008ea40c5b89b6482f7e74be8c2dad89f6b521fa9b212a16d759145d38"
+  ],
+  "runtime": {
+    "python": "3.12.13",
+    "platform": "Linux-6.8.0-79-generic-x86_64-with-glibc2.39",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "frbench": "1.1.2"
+  }
+}

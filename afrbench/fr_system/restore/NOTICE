@@ -1,0 +1,39 @@
+Vendored restorer and JPEG graphs used by AFRBench's FR-system pipeline.
+
+These copies are trimmed for inference (no facelib detect/paste, no RealESRGAN,
+no ImageNet/CIFAR DiffPure). Runtime code must not import ``code_references/``.
+
+GFPGAN
+  Upstream: https://github.com/TencentARC/GFPGAN
+  Commit:   7552a77
+  Files:    gfpgan/archs/gfpganv1_clean_arch.py
+            gfpgan/archs/stylegan2_clean_arch.py
+  License:  Apache-2.0 (Tencent). Bundled StyleGAN2 clean decoder is NVIDIA
+            StyleGAN2 research / evaluation use; see gfpgan/LICENSE.
+
+CodeFormer
+  Upstream: https://github.com/sczhou/CodeFormer
+  Commit:   b33cc7d
+  Files:    basicsr/archs/codeformer_arch.py
+            basicsr/archs/vqgan_arch.py
+  License:  S-Lab 1.0 (non-commercial); see codeformer/LICENSE.
+
+DiffPure
+  Upstream: https://github.com/NVlabs/DiffPure
+  Commit:   985703f
+  Files:    ddpm/unet_ddpm.py (from SDEdit; see LICENSE_UNET_DDPM)
+            runners/diffpure_ddpm.py (SDEdit step, I/O stripped)
+            configs/celeba.yml (inlined in sdedit.celeba_config)
+  License:  NVIDIA Source Code License for DiffPure (research / evaluation);
+            see diffpure/LICENSE.
+
+DiffJPEG
+  Upstream: https://github.com/mlomnitz/DiffJPEG
+  Commit:   a5767fe (HEAD as cloned)
+  Files:    afrbench/fr_system/diffjpeg/
+  License:  MIT; see afrbench/fr_system/diffjpeg/LICENSE.
+  Note:     DiffJPEG is not libjpeg. There is no Huffman coding; chroma uses
+            a synthetic 4:2:0 average-pool. Output may be non-integer.
+
+A thin no-op ARCH_REGISTRY / default_init_weights / get_root_logger lives in
+registry.py so these graphs do not need pip ``basicsr``.

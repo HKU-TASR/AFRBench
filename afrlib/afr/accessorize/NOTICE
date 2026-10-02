@@ -1,0 +1,5 @@
+Accessorize: "Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition" (CCS 2016).
+
+This implementation is adapted from the authors' code in https://github.com/mahmoods01/accessorize-to-a-crime,
+which does not include a license file. Rights to that code remain with its
+authors; it is included here for research reproducibility. See THIRD_PARTY.md.
