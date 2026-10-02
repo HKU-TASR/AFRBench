@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import numpy as np
+import pytest
 import torch
 
 from afrlib.afr.adv_makeup.adv_makeup import AdvMakeup
@@ -35,6 +36,7 @@ def test_largest_detection_bbox_picks_highest_area():
 
 
 def test_detector_uses_default_box_when_frbench_misses():
+    pytest.importorskip("insightface")
     captured = {}
 
     class _Det:
