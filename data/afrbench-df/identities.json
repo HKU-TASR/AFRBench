@@ -1,0 +1,355 @@
+{
+ "schema": "afrbench-identities-v4",
+ "identities": {
+  "M005": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M008": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M010": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M011": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M015": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M016": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M019": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M021": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M022": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M024": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M028": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M029": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M031": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M109": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M113": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M114": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M115": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M118": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M120": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M122": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M131": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M133": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M134": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M136": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "M141": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W005": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W006": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W007": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W012": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W014": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W015": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W016": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W017": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W018": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W021": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W024": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W026": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W029": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W031": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W037": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W039": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W041": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W042": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W101": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W111": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W116": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W125": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W134": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W135": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  },
+  "W136": {
+   "role": "protectee",
+   "n_images": 100,
+   "n_album": 50,
+   "n_query": 25,
+   "n_gallery": 25
+  }
+ }
+}

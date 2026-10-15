@@ -28,7 +28,11 @@ POOLS = ROLES
 
 @dataclasses.dataclass(frozen=True)
 class ImageRecord:
-    """One annotated image: identity, role, and face geometry; ``source`` is provenance only."""
+    """One annotated image: identity, role, and face geometry.
+
+    ``labels`` holds optional attributes of the photo (for AFRBench-DF its camera, emotion and
+    light) that ``python -m afrbench.groups`` reports results by; ``source`` is provenance only.
+    """
 
     path: str
     identity: str
@@ -58,6 +62,7 @@ class ImageRecord:
     quality_score: Optional[float] = None
     session: Optional[str] = None
     album_reason: Optional[str] = None
+    labels: Dict[str, str] = dataclasses.field(default_factory=dict)  # attributes to group results by
     source: Dict[str, Any] = dataclasses.field(default_factory=dict)
 
     @property

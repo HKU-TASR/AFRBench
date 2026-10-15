@@ -1,6 +1,8 @@
 """Job configs written by ``afrbench.benchmark`` for each method lifecycle."""
 from __future__ import annotations
 
+import json
+import shutil
 import sys
 from pathlib import Path
 
@@ -135,3 +137,15 @@ def test_overrides_and_extra_eval_model(tmp_path):
     assert _load(paths["protect"][0])["afr"]["set"]["strength"] == 2.0
     names = sorted(path.stem for path in paths["eval"])
     assert names == ["jpeg", "jpeg@irse50_arcface_ms1m", "minimal", "minimal@irse50_arcface_ms1m"]
+
+
+def test_experiment_label_follows_the_dataset_name(tmp_path):
+    basic = benchmark.generate("bench_stubs:Untargeted", DATASET, tmp_path / "basic")
+    assert _load(basic["protect"][0])["experiment"] == "basic"
+    renamed = tmp_path / "renamed"
+    shutil.copytree(DATASET, renamed)
+    info = json.loads((renamed / "dataset.json").read_text())
+    info["name"] = "afrbench-df"
+    (renamed / "dataset.json").write_text(json.dumps(info))
+    other = benchmark.generate("bench_stubs:Untargeted", renamed, tmp_path / "other")
+    assert _load(other["protect"][0])["experiment"] == "df"

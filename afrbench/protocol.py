@@ -1,4 +1,4 @@
-"""The AFRBench-basic protocol: method roster, surrogates, FR systems, and eval suite."""
+"""The AFRBench protocol, the same on AFRBench-basic and AFRBench-DF: method roster, surrogates, FR systems, and eval suite."""
 from __future__ import annotations
 
 import inspect
@@ -22,14 +22,14 @@ EVAL_DETECTOR = "retinaface_resnet50"
 SEED = 0
 EXPERIMENT = "basic"
 
-#: Implemented in afrlib but not executed by AFRBench-basic.
+#: Implemented in afrlib but not executed by the benchmark.
 HELD = frozenset({"efficient_decision", "dpa"})
 
 PIPELINE_PRESETS = (
     "minimal", "quantized", "jpeg", "tta", "full", "median", "gfpgan", "codeformer", "diffpure",
 )
 
-#: The 17 evaluation jobs of AFRBench-basic, in suite order.
+#: The 17 evaluation jobs of the protocol, in suite order.
 EVAL_SUITE = (
     "minimal",
     "whitebox_swinv2b_arcface_glint360k",
@@ -63,7 +63,7 @@ PIPELINE_EVALS = {
 
 
 def roster() -> List[str]:
-    """Built-in methods executed by AFRBench-basic."""
+    """Built-in methods the benchmark executes."""
     from afrlib import AFR_REGISTRY
 
     return sorted(name for name in AFR_REGISTRY if name not in HELD)

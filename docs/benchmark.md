@@ -1,7 +1,8 @@
 # Running the benchmark
 
-`python -m afrbench.benchmark` runs the [AFRBench-basic protocol](protocol.md) on one
-method: a built-in method or your own. This page goes from a fresh machine to results.
+`python -m afrbench.benchmark` runs the [AFRBench protocol](protocol.md) on one method: a
+built-in method or your own. This page goes from a fresh machine to results, on
+AFRBench-basic and, with the same commands, on AFRBench-DF.
 
 ## Requirements
 
@@ -17,6 +18,7 @@ method: a built-in method or your own. This page goes from a fresh machine to re
   | MillionCelebs pack | 179 GiB |
   | Distractor embedding cache, per evaluation FR model | 47 GB |
   | Getty photos | 3.2 GB |
+  | DeeperForensics-1.0 source videos (AFRBench-DF; can be deleted after assembly) | about 164 GB |
   | Training corpora (methods with a train stage) | up to 70 GB |
   | Method weights | tens of GB |
   | Protected photos, per method | 25-40 GB |
@@ -65,6 +67,11 @@ python -m afrbench.millioncelebs download --out /big/mc
 python -m afrbench.millioncelebs pack --src /big/mc --out /big/mc/noise.lmdb
 ```
 
+For AFRBench-DF, obtain the source videos of
+[DeeperForensics-1.0](https://github.com/EndlessSora/DeeperForensics-1.0) from its authors
+instead of the Getty photos (see [data.md](data.md)); the downloaded
+`source_videos_part_*.zip` files can be used as they are. MillionCelebs is needed in both cases.
+
 ## 3. Assemble the dataset
 
 ```bash
@@ -84,6 +91,19 @@ no EXIF rotation, links it into place, and verifies the pack. Problems are liste
 ```
 
 Distractor embeddings are cached next to it, in `/big/afrbench/_shared/`.
+
+AFRBench-DF is assembled the same way. `prepare` decodes each recorded frame from its clip
+into `protectees/<actor>/` as a PNG (never resized) and checks its size; it reads the
+clips from the extracted `source_videos` tree or straight from the zip files:
+
+```bash
+python -m afrbench.deeperforensics prepare --videos /big/df/zips --noise /big/mc/noise.lmdb --out /big/afrbench/df
+python -m afrbench.deeperforensics verify /big/afrbench/df
+```
+
+`verify` checks every frame's size and checksum, that its labels agree with its clip, and
+that no clip feeds two roles of one actor (add `--faces` to detect every face again).
+Pass the assembled folder as `--dataset` in the next step.
 
 ## 4. Run a method
 
@@ -117,6 +137,19 @@ python -m afrbench.benchmark --method fawkes --eval-fr my_pkg.fr:MyRecognizer --
 ```
 
 See [extending.md](extending.md) for the method and FR-model interfaces.
+
+## 6. Results by camera or emotion
+
+The frames of AFRBench-DF carry the camera and emotion of their clip as labels.
+`python -m afrbench.groups` reports any finished eval by them:
+
+```bash
+python -m afrbench.groups --dataset /big/afrbench/df --eval results/fawkes/eval/minimal --by camera
+python -m afrbench.groups --dataset /big/afrbench/df --eval results/fawkes/eval/minimal --by camera --by emotion --scenario 1A
+```
+
+It averages each metric within every value of the labels, per run, FR system, and scenario,
+prints the table, and writes `groups.csv` into the first eval folder.
 
 ## Outputs
 

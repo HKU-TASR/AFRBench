@@ -1,4 +1,4 @@
-"""Run the AFRBench-basic protocol on one method.
+"""Run the AFRBench protocol on one method, on AFRBench-basic or AFRBench-DF.
 
 ``python -m afrbench.benchmark --method <name | package.module:Class> --dataset D --out O``
 writes the method's train/fit/protect/eval job configs under ``O/configs`` and runs
@@ -60,15 +60,16 @@ def _dataset_key(dataset_root: Path) -> str:
 class _Writer:
     """Writes configs under ``<out>/configs`` without ever replacing a different file."""
 
-    def __init__(self, root: Path, overwrite: bool):
+    def __init__(self, root: Path, overwrite: bool, experiment: str = P.EXPERIMENT):
         self.root = root
         self.overwrite = overwrite
+        self.experiment = experiment
         self.paths: Dict[str, List[Path]] = {kind: [] for kind in KINDS}
 
     def emit(self, kind: str, rel: str, save_path: Path, body: Dict[str, Any]) -> None:
         config = {
             "kind": kind,
-            "experiment": P.EXPERIMENT,
+            "experiment": self.experiment,
             "seed": P.SEED,
             "save_path": str(save_path),
             **body,
@@ -94,12 +95,12 @@ def generate(
     corpus_roots: Optional[Dict[str, str]] = None,
     overwrite: bool = False,
 ) -> Dict[str, List[Path]]:
-    """Write one method's AFRBench-basic job configs; return their paths by kind."""
+    """Write one method's job configs for a prepared dataset; return their paths by kind."""
     from afrlib import AFR_REGISTRY
     from afrbench.dataset import BenchDataset
 
     if method in P.HELD:
-        raise SystemExit(f"{method} is implemented in afrlib but is not part of AFRBench-basic")
+        raise SystemExit(f"{method} is implemented in afrlib but is not part of the AFRBench protocol")
     if ":" not in method and method not in AFR_REGISTRY:
         raise SystemExit(f"unknown method {method!r}; built-in methods: {P.roster()}")
     cls = AFR_REGISTRY[method]
@@ -120,7 +121,8 @@ def generate(
         "afr": afr,
         "dataset": str(dataset_root),
     }
-    writer = _Writer(out / "configs", overwrite)
+    experiment = str(dataset.info.get("name") or f"afrbench-{P.EXPERIMENT}").removeprefix("afrbench-")
+    writer = _Writer(out / "configs", overwrite, experiment)
 
     train_saves: Dict[Optional[str], Path] = {}
     if roles["train"]:
@@ -304,7 +306,8 @@ def summarize(paths: Dict[str, List[Path]], method: str) -> Optional[Path]:
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(prog="python -m afrbench.benchmark", description=__doc__.split("\n\n")[0])
     parser.add_argument("--method", required=True, help="built-in method name or package.module:Class")
-    parser.add_argument("--dataset", required=True, help="prepared AFRBench-basic dataset (python -m afrbench.prepare)")
+    parser.add_argument("--dataset", required=True, help="prepared dataset: AFRBench-basic (python -m afrbench.prepare) or AFRBench-DF "
+                        "(python -m afrbench.deeperforensics prepare)")
     parser.add_argument("--out", required=True, help="output folder for configs, runs, and evals")
     parser.add_argument("--set", action="append", default=[], metavar="KEY=VALUE",
                         help="method constructor override (repeatable)")

@@ -79,8 +79,12 @@ downloaded from the AT3D authors' link, contains Basel Face Model 2009 data unde
 Training corpora (MS1M, CASIA-WebFace, VGGFace2, MT, LADN, CelebAMask-HQ) and the
 [MillionCelebs](https://buptzyb.github.io/MillionCelebs/) distractors are subject to
 their own terms. The five HQ target images in `data/afrbench-basic/targets/hq/` are
-from CelebA-HQ, which is provided for non-commercial research use. AFRBench-basic
-protectee images are not distributed; see [`docs/data.md`](docs/data.md).
+from CelebA-HQ, which is provided for non-commercial research use. AFRBench-DF frames
+are decoded from the source videos of
+[DeeperForensics-1.0](https://github.com/EndlessSora/DeeperForensics-1.0) (Jiang et al.,
+CVPR 2020), which its authors make available for non-commercial research under their
+terms of use. AFRBench-basic protectee images and DeeperForensics-1.0 videos and frames
+are not distributed; see [`docs/data.md`](docs/data.md).
 
 Build dependencies installed by `setup.sh` keep their own licenses; note that
 [nvdiffrast](https://github.com/NVlabs/nvdiffrast) (needed by AT3D and Protego) is

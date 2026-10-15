@@ -2,6 +2,8 @@
 
 AFRBench measures how well a protection method keeps a person's photos from being
 retrieved by a face-recognition search engine, and how much it changes the photos.
+This page describes the protocol on AFRBench-basic; [AFRBench-DF](#afrbench-df) applies
+it to video frames.
 
 ## Data
 
@@ -116,3 +118,25 @@ method's attack surrogates.
 | `quantize`, `jpeg`, `tta`, `tta_jpeg_quantize` | uint8 quantization, DiffJPEG quality 75, flip test-time augmentation, and all three |
 | `median`, `gfpgan`, `codeformer` | purification of query and protectee photos before recognition |
 | `mc_no_targets`, `mc_drop_2005`, `mc_ids_{500000,100000,20000,4000}` | variants of the distractor set |
+
+## AFRBench-DF
+
+AFRBench-DF runs this protocol unchanged on frames of the DeeperForensics-1.0 source
+videos ([data.md](data.md#afrbench-df)); only the data and the reporting differ.
+
+- **Protectees and photos.** A protectee is an actor and a photo is a decoded video frame
+  of 1920x1080 pixels, processed as the same square frame around the face. There are 50
+  actors, 25 men and 25 women, with 100 frames each: 50 album, 25 query, and 25 gallery
+  frames, every one from a different clip.
+- **Roles are disjoint by clip.** No clip feeds two roles of one actor, and within a role the
+  clips are balanced over camera, emotion, and light. Each actor was recorded in one session,
+  so, unlike in AFRBench-basic, the roles share clothing, hairstyle, and background; they
+  differ in viewpoint, expression, and lighting.
+- **Targets, distractors, protection, evaluation.** As above: the same HQ targets and
+  pool, MillionCelebs distractors, attack surrogates, FR systems, evaluation suite,
+  scenarios, and metrics.
+- **Labels.** Every frame carries the camera and emotion of its clip.
+  `python -m afrbench.groups` averages the per-query metrics of any finished eval within
+  each value of these labels, so a method can be compared across viewpoints and
+  expressions. Poses that are hard for the detector or the FR model count against the
+  method like any other failure: a query whose face is not detected counts as not retrieved.
