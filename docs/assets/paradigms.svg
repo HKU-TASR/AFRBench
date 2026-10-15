@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="492" viewBox="0 0 960 492" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Anti-face-recognition methods in AFRLib and AFRBench, by paradigm</title>
+<desc id="d">Twenty-six methods in five paradigms, newest first; the two marked with a dagger are not evaluated yet.</desc>
+<rect x="0.5" y="0.5" width="959" height="491" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="22.0" y="36.0" font-size="19" fill="#1f2328" font-weight="600" text-anchor="start">26 anti-FR methods, 5 paradigms</text>
+<text x="22.0" y="57.0" font-size="12.5" fill="#59636e" text-anchor="start">Newest first within each paradigm. Dashed outline (†): implemented in AFRLib, not evaluated in AFRBench yet.</text>
+<rect x="14.0" y="78.0" width="4.0" height="56.0" rx="2" fill="#40b2bf"/>
+<text x="28.0" y="99.0" font-size="14.5" fill="#1d5c63" font-weight="600" text-anchor="start">Personalized masks</text>
+<text x="28.0" y="117.0" font-size="11.5" fill="#59636e" text-anchor="start">4 methods</text>
+<rect x="266.0" y="84.0" width="105.2" height="28" rx="14.0" fill="#e7f6f8" stroke="#39a1ac" stroke-width="1.2"/>
+<text x="277.0" y="102.5" font-size="13" fill="#19474d" font-weight="600" text-anchor="start">Protego</text>
+<text x="332.1" y="101.8" font-size="11" fill="#59636e" text-anchor="start">2026</text>
+<rect x="379.2" y="84.0" width="115.1" height="28" rx="14.0" fill="#e7f6f8" stroke="#39a1ac" stroke-width="1.2"/>
+<text x="390.2" y="102.5" font-size="13" fill="#19474d" font-weight="600" text-anchor="start">AdvCloak</text>
+<text x="455.2" y="101.8" font-size="11" fill="#59636e" text-anchor="start">2025</text>
+<rect x="502.4" y="84.0" width="125.6" height="28" rx="14.0" fill="#e7f6f8" stroke="#39a1ac" stroke-width="1.2"/>
+<text x="513.4" y="102.5" font-size="13" fill="#19474d" font-weight="600" text-anchor="start">Chameleon</text>
+<text x="588.8" y="101.8" font-size="11" fill="#59636e" text-anchor="start">2024</text>
+<rect x="636.0" y="84.0" width="94.5" height="28" rx="14.0" fill="#e7f6f8" stroke="#39a1ac" stroke-width="1.2"/>
+<text x="647.0" y="102.5" font-size="13" fill="#19474d" font-weight="600" text-anchor="start">OPOM</text>
+<text x="691.3" y="101.8" font-size="11" fill="#59636e" text-anchor="start">2022</text>
+<line x1="14.0" y1="140.0" x2="938.0" y2="140.0" stroke="#eaeef2" stroke-width="1.0"/>
+<rect x="14.0" y="148.0" width="4.0" height="76.0" rx="2" fill="#5140bf"/>
+<text x="28.0" y="169.0" font-size="14.5" fill="#261d63" font-weight="600" text-anchor="start">Per-sample perturbation</text>
+<text x="28.0" y="187.0" font-size="14.5" fill="#261d63" font-weight="600" text-anchor="start">optimization</text>
+<text x="28.0" y="205.0" font-size="11.5" fill="#59636e" text-anchor="start">6 methods, 4 evaluated</text>
+<rect x="266.0" y="154.0" width="95.3" height="28" rx="14.0" fill="#ffffff" stroke="#4939ac" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="277.0" y="172.6" font-size="13" fill="#20194d" font-weight="600" text-anchor="start">DPA †</text>
+<text x="322.1" y="171.8" font-size="11" fill="#59636e" text-anchor="start">2025</text>
+<rect x="369.3" y="154.0" width="108.0" height="28" rx="14.0" fill="#eae7f8" stroke="#4939ac" stroke-width="1.2"/>
+<text x="380.3" y="172.6" font-size="13" fill="#20194d" font-weight="600" text-anchor="start">LowKey</text>
+<text x="438.1" y="171.8" font-size="11" fill="#59636e" text-anchor="start">2021</text>
+<rect x="485.3" y="154.0" width="99.2" height="28" rx="14.0" fill="#eae7f8" stroke="#4939ac" stroke-width="1.2"/>
+<text x="496.3" y="172.6" font-size="13" fill="#20194d" font-weight="600" text-anchor="start">TIP-IM</text>
+<text x="545.3" y="171.8" font-size="11" fill="#59636e" text-anchor="start">2021</text>
+<rect x="592.4" y="154.0" width="82.6" height="28" rx="14.0" fill="#eae7f8" stroke="#4939ac" stroke-width="1.2"/>
+<text x="603.4" y="172.6" font-size="13" fill="#20194d" font-weight="600" text-anchor="start">APF</text>
+<text x="635.9" y="171.8" font-size="11" fill="#59636e" text-anchor="start">2020</text>
+<rect x="683.0" y="154.0" width="106.6" height="28" rx="14.0" fill="#eae7f8" stroke="#4939ac" stroke-width="1.2"/>
+<text x="694.0" y="172.6" font-size="13" fill="#20194d" font-weight="600" text-anchor="start">Fawkes</text>
+<text x="750.5" y="171.8" font-size="11" fill="#59636e" text-anchor="start">2020</text>
+<rect x="266.0" y="190.0" width="183.5" height="28" rx="14.0" fill="#ffffff" stroke="#4939ac" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="277.0" y="208.6" font-size="13" fill="#20194d" font-weight="600" text-anchor="start">Efficient Decision †</text>
+<text x="410.3" y="207.8" font-size="11" fill="#59636e" text-anchor="start">2019</text>
+<line x1="14.0" y1="230.0" x2="938.0" y2="230.0" stroke="#eaeef2" stroke-width="1.0"/>
+<rect x="14.0" y="238.0" width="4.0" height="76.0" rx="2" fill="#bf5940"/>
+<text x="28.0" y="259.0" font-size="14.5" fill="#632b1d" font-weight="600" text-anchor="start">Face synthesis</text>
+<text x="28.0" y="277.0" font-size="11.5" fill="#59636e" text-anchor="start">9 methods</text>
+<rect x="266.0" y="244.0" width="143.2" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="277.0" y="262.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">Adv-Inversion</text>
+<text x="370.1" y="261.9" font-size="11" fill="#59636e" text-anchor="start">2025</text>
+<rect x="417.2" y="244.0" width="99.4" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="428.2" y="262.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">AIDPro</text>
+<text x="477.5" y="261.9" font-size="11" fill="#59636e" text-anchor="start">2025</text>
+<rect x="524.7" y="244.0" width="91.4" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="535.7" y="262.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">DADP</text>
+<text x="577.0" y="261.9" font-size="11" fill="#59636e" text-anchor="start">2025</text>
+<rect x="624.1" y="244.0" width="104.4" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="635.1" y="262.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">DiffAIM</text>
+<text x="689.3" y="261.9" font-size="11" fill="#59636e" text-anchor="start">2025</text>
+<rect x="736.5" y="244.0" width="127.8" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="747.5" y="262.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">DivTrackee</text>
+<text x="825.2" y="261.9" font-size="11" fill="#59636e" text-anchor="start">2025</text>
+<rect x="266.0" y="280.0" width="117.3" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="277.0" y="298.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">FPP-WDP</text>
+<text x="344.2" y="297.9" font-size="11" fill="#59636e" text-anchor="start">2025</text>
+<rect x="391.3" y="280.0" width="142.4" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="402.3" y="298.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">Adv-Diffusion</text>
+<text x="494.6" y="297.9" font-size="11" fill="#59636e" text-anchor="start">2024</text>
+<rect x="541.8" y="280.0" width="86.8" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="552.8" y="298.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">GIFT</text>
+<text x="589.4" y="297.9" font-size="11" fill="#59636e" text-anchor="start">2024</text>
+<rect x="636.5" y="280.0" width="100.3" height="28" rx="14.0" fill="#f8ebe7" stroke="#ac5039" stroke-width="1.2"/>
+<text x="647.5" y="298.6" font-size="13" fill="#4d2419" font-weight="600" text-anchor="start">FALCO</text>
+<text x="697.6" y="297.9" font-size="11" fill="#59636e" text-anchor="start">2023</text>
+<line x1="14.0" y1="320.0" x2="938.0" y2="320.0" stroke="#eaeef2" stroke-width="1.0"/>
+<rect x="14.0" y="328.0" width="4.0" height="56.0" rx="2" fill="#bf4084"/>
+<text x="28.0" y="349.0" font-size="14.5" fill="#631d42" font-weight="600" text-anchor="start">Makeup synthesis</text>
+<text x="28.0" y="367.0" font-size="11.5" fill="#59636e" text-anchor="start">4 methods</text>
+<rect x="266.0" y="334.0" width="100.3" height="28" rx="14.0" fill="#f8e7f0" stroke="#ac3977" stroke-width="1.2"/>
+<text x="277.0" y="352.6" font-size="13" fill="#4d1935" font-weight="600" text-anchor="start">DiffAM</text>
+<text x="327.1" y="351.9" font-size="11" fill="#59636e" text-anchor="start">2024</text>
+<rect x="374.3" y="334.0" width="142.4" height="28" rx="14.0" fill="#f8e7f0" stroke="#ac3977" stroke-width="1.2"/>
+<text x="385.3" y="352.6" font-size="13" fill="#4d1935" font-weight="600" text-anchor="start">CLIP2Protect</text>
+<text x="477.5" y="351.9" font-size="11" fill="#59636e" text-anchor="start">2023</text>
+<rect x="524.7" y="334.0" width="117.3" height="28" rx="14.0" fill="#f8e7f0" stroke="#ac3977" stroke-width="1.2"/>
+<text x="535.7" y="352.6" font-size="13" fill="#4d1935" font-weight="600" text-anchor="start">AMT-GAN</text>
+<text x="602.9" y="351.9" font-size="11" fill="#59636e" text-anchor="start">2022</text>
+<rect x="650.0" y="334.0" width="134.2" height="28" rx="14.0" fill="#f8e7f0" stroke="#ac3977" stroke-width="1.2"/>
+<text x="661.0" y="352.6" font-size="13" fill="#4d1935" font-weight="600" text-anchor="start">Adv-Makeup</text>
+<text x="745.0" y="351.9" font-size="11" fill="#59636e" text-anchor="start">2021</text>
+<line x1="14.0" y1="390.0" x2="938.0" y2="390.0" stroke="#eaeef2" stroke-width="1.0"/>
+<rect x="14.0" y="398.0" width="4.0" height="56.0" rx="2" fill="#99bf40"/>
+<text x="28.0" y="419.0" font-size="14.5" fill="#4e631d" font-weight="600" text-anchor="start">Accessory</text>
+<text x="28.0" y="437.0" font-size="11.5" fill="#59636e" text-anchor="start">3 methods</text>
+<rect x="266.0" y="404.0" width="91.4" height="28" rx="14.0" fill="#f3f8e7" stroke="#8aac39" stroke-width="1.2"/>
+<text x="277.0" y="422.6" font-size="13" fill="#3d4d19" font-weight="600" text-anchor="start">AT3D</text>
+<text x="318.3" y="421.9" font-size="11" fill="#59636e" text-anchor="start">2023</text>
+<rect x="365.4" y="404.0" width="101.4" height="28" rx="14.0" fill="#f3f8e7" stroke="#8aac39" stroke-width="1.2"/>
+<text x="376.4" y="422.6" font-size="13" fill="#3d4d19" font-weight="600" text-anchor="start">AdvHat</text>
+<text x="427.6" y="421.9" font-size="11" fill="#59636e" text-anchor="start">2020</text>
+<rect x="474.8" y="404.0" width="133.9" height="28" rx="14.0" fill="#f3f8e7" stroke="#8aac39" stroke-width="1.2"/>
+<text x="485.8" y="422.6" font-size="13" fill="#3d4d19" font-weight="600" text-anchor="start">Accessorize</text>
+<text x="569.5" y="421.9" font-size="11" fill="#59636e" text-anchor="start">2016</text>
+</svg>

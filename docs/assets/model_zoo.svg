@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="488" viewBox="0 0 960 488" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">The 45 face-recognition models of AFRBench</title>
+<desc id="d">45 models: 25 backbones, 9 losses and 3 training sets.</desc>
+<rect x="0.5" y="0.5" width="959" height="487" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="22.0" y="36.0" font-size="19" fill="#1f2328" font-weight="600" text-anchor="start">The 45 face-recognition models of FRBench</text>
+<text x="22.0" y="57.0" font-size="12.5" fill="#59636e" text-anchor="start">25 backbones, 9 loss functions and 3 training sets, all behind one interface.</text>
+<text x="22.0" y="86.0" font-size="14" fill="#1f2328" font-weight="600" text-anchor="start">Architecture: 25 backbones, each trained with ArcFace on MS1M</text>
+<text x="22.0" y="119.0" font-size="11.5" fill="#264c73" font-weight="600" text-anchor="start">Classic CNNs</text>
+<rect x="22.0" y="126.0" width="71.4" height="24" rx="12.0" fill="#e7f0f8" stroke="#3973ac" stroke-width="1.2"/>
+<text x="33.0" y="142.2" font-size="12" fill="#19334d" font-weight="600" text-anchor="start">IRSE-18</text>
+<rect x="99.4" y="126.0" width="71.4" height="24" rx="12.0" fill="#e7f0f8" stroke="#3973ac" stroke-width="1.2"/>
+<text x="110.4" y="142.2" font-size="12" fill="#19334d" font-weight="600" text-anchor="start">IRSE-34</text>
+<rect x="176.7" y="126.0" width="71.4" height="24" rx="12.0" fill="#e7f0f8" stroke="#3973ac" stroke-width="1.2"/>
+<text x="187.7" y="142.2" font-size="12" fill="#19334d" font-weight="600" text-anchor="start">IRSE-50</text>
+<rect x="254.1" y="126.0" width="79.5" height="24" rx="12.0" fill="#e7f0f8" stroke="#3973ac" stroke-width="1.2"/>
+<text x="265.1" y="142.2" font-size="12" fill="#19334d" font-weight="600" text-anchor="start">IRSE-100</text>
+<rect x="339.6" y="126.0" width="93.0" height="24" rx="12.0" fill="#e7f0f8" stroke="#3973ac" stroke-width="1.2"/>
+<text x="350.6" y="142.2" font-size="12" fill="#19334d" font-weight="600" text-anchor="start">ResNet-100</text>
+<rect x="438.5" y="126.0" width="109.3" height="24" rx="12.0" fill="#e7f0f8" stroke="#3973ac" stroke-width="1.2"/>
+<text x="449.5" y="142.2" font-size="12" fill="#19334d" font-weight="600" text-anchor="start">ResNetV2-100</text>
+<rect x="22.0" y="156.0" width="106.7" height="24" rx="12.0" fill="#e7f0f8" stroke="#3973ac" stroke-width="1.2"/>
+<text x="33.0" y="172.2" font-size="12" fill="#19334d" font-weight="600" text-anchor="start">DenseNet-201</text>
+<text x="22.0" y="209.0" font-size="11.5" fill="#26734d" font-weight="600" text-anchor="start">Efficient CNNs</text>
+<rect x="22.0" y="216.0" width="109.8" height="24" rx="12.0" fill="#e7f8f0" stroke="#39ac73" stroke-width="1.2"/>
+<text x="33.0" y="232.2" font-size="12" fill="#194d33" font-weight="600" text-anchor="start">MobileFaceNet</text>
+<rect x="137.8" y="216.0" width="81.0" height="24" rx="12.0" fill="#e7f8f0" stroke="#39ac73" stroke-width="1.2"/>
+<text x="148.8" y="232.2" font-size="12" fill="#194d33" font-weight="600" text-anchor="start">MobileNet</text>
+<rect x="224.8" y="216.0" width="97.3" height="24" rx="12.0" fill="#e7f8f0" stroke="#39ac73" stroke-width="1.2"/>
+<text x="235.8" y="232.2" font-size="12" fill="#194d33" font-weight="600" text-anchor="start">MobileNetV2</text>
+<rect x="328.1" y="216.0" width="110.3" height="24" rx="12.0" fill="#e7f8f0" stroke="#39ac73" stroke-width="1.2"/>
+<text x="339.1" y="232.2" font-size="12" fill="#194d33" font-weight="600" text-anchor="start">MobileNetV3-L</text>
+<rect x="444.4" y="216.0" width="113.1" height="24" rx="12.0" fill="#e7f8f0" stroke="#39ac73" stroke-width="1.2"/>
+<text x="455.4" y="232.2" font-size="12" fill="#194d33" font-weight="600" text-anchor="start">MobileNetV4-M</text>
+<rect x="22.0" y="246.0" width="113.8" height="24" rx="12.0" fill="#e7f8f0" stroke="#39ac73" stroke-width="1.2"/>
+<text x="33.0" y="262.2" font-size="12" fill="#194d33" font-weight="600" text-anchor="start">EfficientNet-B4</text>
+<text x="22.0" y="299.0" font-size="11.5" fill="#734f26" font-weight="600" text-anchor="start">Modern CNNs</text>
+<rect x="22.0" y="306.0" width="91.7" height="24" rx="12.0" fill="#f8f0e7" stroke="#ac7739" stroke-width="1.2"/>
+<text x="33.0" y="322.2" font-size="12" fill="#4d3519" font-weight="600" text-anchor="start">ConvNeXt-B</text>
+<rect x="119.7" y="306.0" width="108.0" height="24" rx="12.0" fill="#f8f0e7" stroke="#ac7739" stroke-width="1.2"/>
+<text x="130.7" y="322.2" font-size="12" fill="#4d3519" font-weight="600" text-anchor="start">ConvNeXtV2-B</text>
+<text x="22.0" y="359.0" font-size="11.5" fill="#592673" font-weight="600" text-anchor="start">Swin transformers</text>
+<rect x="22.0" y="366.0" width="64.7" height="24" rx="12.0" fill="#f3e7f8" stroke="#8639ac" stroke-width="1.2"/>
+<text x="33.0" y="382.2" font-size="12" fill="#3c194d" font-weight="600" text-anchor="start">Swin-B</text>
+<rect x="92.7" y="366.0" width="81.0" height="24" rx="12.0" fill="#f3e7f8" stroke="#8639ac" stroke-width="1.2"/>
+<text x="103.7" y="382.2" font-size="12" fill="#3c194d" font-weight="600" text-anchor="start">SwinV2-T</text>
+<rect x="179.8" y="366.0" width="81.0" height="24" rx="12.0" fill="#f3e7f8" stroke="#8639ac" stroke-width="1.2"/>
+<text x="190.8" y="382.2" font-size="12" fill="#3c194d" font-weight="600" text-anchor="start">SwinV2-S</text>
+<rect x="266.8" y="366.0" width="81.0" height="24" rx="12.0" fill="#f3e7f8" stroke="#8639ac" stroke-width="1.2"/>
+<text x="277.8" y="382.2" font-size="12" fill="#3c194d" font-weight="600" text-anchor="start">SwinV2-B</text>
+<rect x="353.8" y="366.0" width="81.0" height="24" rx="12.0" fill="#f3e7f8" stroke="#8639ac" stroke-width="1.2"/>
+<text x="364.8" y="382.2" font-size="12" fill="#3c194d" font-weight="600" text-anchor="start">SwinV2-L</text>
+<rect x="440.8" y="366.0" width="96.8" height="24" rx="12.0" fill="#f3e7f8" stroke="#8639ac" stroke-width="1.2"/>
+<text x="451.8" y="382.2" font-size="12" fill="#3c194d" font-weight="600" text-anchor="start">Swin-MLP-B</text>
+<text x="22.0" y="419.0" font-size="11.5" fill="#732640" font-weight="600" text-anchor="start">Mobile vision transformers</text>
+<rect x="22.0" y="426.0" width="94.2" height="24" rx="12.0" fill="#f8e7ed" stroke="#ac3960" stroke-width="1.2"/>
+<text x="33.0" y="442.2" font-size="12" fill="#4d192a" font-weight="600" text-anchor="start">MobileViT-S</text>
+<rect x="122.2" y="426.0" width="97.6" height="24" rx="12.0" fill="#f8e7ed" stroke="#ac3960" stroke-width="1.2"/>
+<text x="133.2" y="442.2" font-size="12" fill="#4d192a" font-weight="600" text-anchor="start">MobileViTV2</text>
+<rect x="225.8" y="426.0" width="110.5" height="24" rx="12.0" fill="#f8e7ed" stroke="#ac3960" stroke-width="1.2"/>
+<text x="236.8" y="442.2" font-size="12" fill="#4d192a" font-weight="600" text-anchor="start">MobileViTV3-S</text>
+<rect x="342.3" y="426.0" width="97.6" height="24" rx="12.0" fill="#f8e7ed" stroke="#ac3960" stroke-width="1.2"/>
+<text x="353.3" y="442.2" font-size="12" fill="#4d192a" font-weight="600" text-anchor="start">MobileViTV3</text>
+<line x1="590.0" y1="78.0" x2="590.0" y2="464.0" stroke="#eaeef2" stroke-width="1.0"/>
+<text x="624.0" y="86.0" font-size="14" fill="#1f2328" font-weight="600" text-anchor="start">Loss: 9 functions</text>
+<text x="624.0" y="104.0" font-size="11.5" fill="#59636e" text-anchor="start">on IRSE-100 (CNN) and SwinV2-B (transformer)</text>
+<rect x="624.0" y="116.0" width="70.6" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="635.0" y="132.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">ArcFace</text>
+<rect x="700.6" y="116.0" width="72.6" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="711.6" y="132.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">CosFace</text>
+<rect x="779.2" y="116.0" width="72.6" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="790.2" y="132.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">AdaFace</text>
+<rect x="624.0" y="146.0" width="108.5" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="635.0" y="162.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">CurricularFace</text>
+<rect x="738.5" y="146.0" width="75.4" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="749.5" y="162.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">MagFace</text>
+<rect x="819.9" y="146.0" width="91.2" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="830.9" y="162.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">SphereFace</text>
+<rect x="624.0" y="176.0" width="69.6" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="635.0" y="192.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">UniFace</text>
+<rect x="699.6" y="176.0" width="89.7" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="710.6" y="192.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">Center loss</text>
+<rect x="795.2" y="176.0" width="90.4" height="24" rx="12.0" fill="#e7eef8" stroke="#3969ac" stroke-width="1.2"/>
+<text x="806.2" y="192.2" font-size="12" fill="#192f4d" font-weight="600" text-anchor="start">Triplet loss</text>
+<text x="624.0" y="226.0" font-size="14" fill="#1f2328" font-weight="600" text-anchor="start">Training set: 3</text>
+<text x="624.0" y="244.0" font-size="11.5" fill="#59636e" text-anchor="start">ArcFace on IRSE-100 and SwinV2-B</text>
+<rect x="624.0" y="256.0" width="60.2" height="24" rx="12.0" fill="#e7f8f3" stroke="#39ac86" stroke-width="1.2"/>
+<text x="635.0" y="272.2" font-size="12" fill="#194d3c" font-weight="600" text-anchor="start">MS1M</text>
+<rect x="690.2" y="256.0" width="94.5" height="24" rx="12.0" fill="#e7f8f3" stroke="#39ac86" stroke-width="1.2"/>
+<text x="701.2" y="272.2" font-size="12" fill="#194d3c" font-weight="600" text-anchor="start">WebFace4M</text>
+<rect x="790.7" y="256.0" width="82.0" height="24" rx="12.0" fill="#e7f8f3" stroke="#39ac86" stroke-width="1.2"/>
+<text x="801.7" y="272.2" font-size="12" fill="#194d3c" font-weight="600" text-anchor="start">Glint360K</text>
+<rect x="624.0" y="306.0" width="314.0" height="56.0" rx="8" fill="#f6f8fa"/>
+<text x="638.0" y="328.0" font-size="13" fill="#1f2328" font-weight="600" text-anchor="start">25 + 16 + 4 = 45 models</text>
+<text x="638.0" y="347.0" font-size="10.5" fill="#59636e" text-anchor="start">25 backbones, 16 more losses, 4 more training sets</text>
+</svg>

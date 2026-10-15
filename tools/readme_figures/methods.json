@@ -1,0 +1,262 @@
+[
+  {
+    "key": "at3d",
+    "name": "AT3D",
+    "venue": "CVPR 2023",
+    "year": 2023,
+    "paradigm": "accessory",
+    "evaluated": true,
+    "paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Yang_Towards_Effective_Adversarial_Textured_3D_Meshes_on_Physical_Face_Recognition_CVPR_2023_paper.html",
+    "code": "https://github.com/thu-ml/AT3D"
+  },
+  {
+    "key": "advhat",
+    "name": "AdvHat",
+    "venue": "ICPR 2020",
+    "year": 2020,
+    "paradigm": "accessory",
+    "evaluated": true,
+    "paper": "https://ieeexplore.ieee.org/document/9412236",
+    "code": "https://github.com/papermsucode/advhat"
+  },
+  {
+    "key": "accessorize",
+    "name": "Accessorize",
+    "venue": "CCS 2016",
+    "year": 2016,
+    "paradigm": "accessory",
+    "evaluated": true,
+    "paper": "https://dl.acm.org/doi/pdf/10.1145/2976749.2978392",
+    "code": "https://github.com/mahmoods01/accessorize-to-a-crime"
+  },
+  {
+    "key": "adv_inversion",
+    "name": "Adv-Inversion",
+    "venue": "TIFS 2025",
+    "year": 2025,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://ieeexplore.ieee.org/abstract/document/11218144/",
+    "code": "https://github.com/BiiiGerrr/Adv-Inversion"
+  },
+  {
+    "key": "aidpro",
+    "name": "AIDPro",
+    "venue": "TIFS 2025",
+    "year": 2025,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://ieeexplore.ieee.org/abstract/document/10884889/",
+    "code": "https://github.com/daizigege/AIDPro"
+  },
+  {
+    "key": "dadp",
+    "name": "DADP",
+    "venue": "TIFS 2025",
+    "year": 2025,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://ieeexplore.ieee.org/abstract/document/11153602/",
+    "code": "https://github.com/LiYuanBoJNU/DADP"
+  },
+  {
+    "key": "diffaim",
+    "name": "DiffAIM",
+    "venue": "ACM MM 2025",
+    "year": 2025,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://dl.acm.org/doi/abs/10.1145/3746027.3755478",
+    "code": "https://github.com/Liqin-Wang/DiffAIM"
+  },
+  {
+    "key": "divtrackee",
+    "name": "DivTrackee",
+    "venue": "CCS 2025",
+    "year": 2025,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://dl.acm.org/doi/epdf/10.1145/3719027.3744867",
+    "code": "https://github.com/fiora6/divtrackee"
+  },
+  {
+    "key": "fpp_wdp",
+    "name": "FPP-WDP",
+    "venue": "CVPR 2025",
+    "year": 2025,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Salar_Enhancing_Facial_Privacy_Protection_via_Weakening_Diffusion_Purification_CVPR_2025_paper.pdf",
+    "code": "https://github.com/parham1998/Facial-Privacy-Protection"
+  },
+  {
+    "key": "adv_diffusion",
+    "name": "Adv-Diffusion",
+    "venue": "AAAI 2024",
+    "year": 2024,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/28147",
+    "code": "https://github.com/kopperx/Adv-Diffusion"
+  },
+  {
+    "key": "gift",
+    "name": "GIFT",
+    "venue": "ACM MM 2024",
+    "year": 2024,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://dl.acm.org/doi/abs/10.1145/3664647.3681344",
+    "code": null
+  },
+  {
+    "key": "falco",
+    "name": "FALCO",
+    "venue": "CVPR 2023",
+    "year": 2023,
+    "paradigm": "face",
+    "evaluated": true,
+    "paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Barattin_Attribute-Preserving_Face_Dataset_Anonymization_via_Latent_Code_Optimization_CVPR_2023_paper.html",
+    "code": "https://github.com/chi0tzp/FALCO"
+  },
+  {
+    "key": "diffam",
+    "name": "DiffAM",
+    "venue": "CVPR 2024",
+    "year": 2024,
+    "paradigm": "makeup",
+    "evaluated": true,
+    "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Sun_DiffAM_Diffusion-based_Adversarial_Makeup_Transfer_for_Facial_Privacy_Protection_CVPR_2024_paper.html",
+    "code": "https://github.com/HansSunY/DiffAM"
+  },
+  {
+    "key": "clip2protect",
+    "name": "CLIP2Protect",
+    "venue": "CVPR 2023",
+    "year": 2023,
+    "paradigm": "makeup",
+    "evaluated": true,
+    "paper": "https://openaccess.thecvf.com/content/CVPR2023/html/Shamshad_CLIP2Protect_Protecting_Facial_Privacy_Using_Text-Guided_Makeup_via_Adversarial_Latent_CVPR_2023_paper.html",
+    "code": "https://github.com/fahadshamshad/Clip2Protect"
+  },
+  {
+    "key": "amt_gan",
+    "name": "AMT-GAN",
+    "venue": "CVPR 2022",
+    "year": 2022,
+    "paradigm": "makeup",
+    "evaluated": true,
+    "paper": "https://openaccess.thecvf.com/content/CVPR2022/html/Hu_Protecting_Facial_Privacy_Generating_Adversarial_Identity_Masks_via_Style-Robust_Makeup_CVPR_2022_paper.html",
+    "code": "https://github.com/CGCL-codes/AMT-GAN"
+  },
+  {
+    "key": "adv_makeup",
+    "name": "Adv-Makeup",
+    "venue": "IJCAI 2021",
+    "year": 2021,
+    "paradigm": "makeup",
+    "evaluated": true,
+    "paper": "https://www.ijcai.org/proceedings/2021/0173.pdf",
+    "code": "https://github.com/TencentYoutuResearch/Adv-Makeup"
+  },
+  {
+    "key": "protego",
+    "name": "Protego",
+    "venue": "CVPR 2026",
+    "year": 2026,
+    "paradigm": "masks",
+    "evaluated": true,
+    "paper": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Protego_User-Centric_Pose-Invariant_Privacy_Protection_Against_Face_Recognition-Induced_Digital_Footprint_CVPR_2026_paper.pdf",
+    "code": "https://github.com/HKU-TASR/Protego"
+  },
+  {
+    "key": "advcloak",
+    "name": "AdvCloak",
+    "venue": "Pattern Recognition 2025",
+    "year": 2025,
+    "paradigm": "masks",
+    "evaluated": true,
+    "paper": "https://www.sciencedirect.com/science/article/abs/pii/S003132032400801X",
+    "code": "https://github.com/liuxuannan/AdvCloak"
+  },
+  {
+    "key": "chameleon",
+    "name": "Chameleon",
+    "venue": "ECCV 2024",
+    "year": 2024,
+    "paradigm": "masks",
+    "evaluated": true,
+    "paper": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10846.pdf",
+    "code": "https://github.com/git-disl/Chameleon"
+  },
+  {
+    "key": "opom",
+    "name": "OPOM",
+    "venue": "TPAMI 2022",
+    "year": 2022,
+    "paradigm": "masks",
+    "evaluated": true,
+    "paper": "https://ieeexplore.ieee.org/abstract/document/9778974/",
+    "code": "https://github.com/zhongyy/OPOM"
+  },
+  {
+    "key": "dpa",
+    "name": "DPA",
+    "venue": "CVPR 2025",
+    "year": 2025,
+    "paradigm": "per_sample",
+    "evaluated": false,
+    "paper": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_Improving_the_Transferability_of_Adversarial_Attacks_on_Face_Recognition_with_CVPR_2025_paper.pdf",
+    "code": "https://github.com/fengfanzhou/DPA"
+  },
+  {
+    "key": "lowkey",
+    "name": "LowKey",
+    "venue": "ICLR 2021",
+    "year": 2021,
+    "paradigm": "per_sample",
+    "evaluated": true,
+    "paper": "https://openreview.net/pdf?id=hJmtwocEqzc",
+    "code": "https://openreview.net/forum?id=hJmtwocEqzc"
+  },
+  {
+    "key": "tip_im",
+    "name": "TIP-IM",
+    "venue": "ICCV 2021",
+    "year": 2021,
+    "paradigm": "per_sample",
+    "evaluated": true,
+    "paper": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yang_Towards_Face_Encryption_by_Generating_Adversarial_Identity_Masks_ICCV_2021_paper.pdf",
+    "code": "https://github.com/ShawnXYang/TIP-IM"
+  },
+  {
+    "key": "apf",
+    "name": "APF",
+    "venue": "ACM MM 2020",
+    "year": 2020,
+    "paradigm": "per_sample",
+    "evaluated": true,
+    "paper": "https://dl.acm.org/doi/10.1145/3394171.3413906",
+    "code": "https://github.com/adversarial-for-goodness/APF"
+  },
+  {
+    "key": "fawkes",
+    "name": "Fawkes",
+    "venue": "USENIX Security 2020",
+    "year": 2020,
+    "paradigm": "per_sample",
+    "evaluated": true,
+    "paper": "https://people.cs.uchicago.edu/~ravenben/publications/pdf/fawkes-usenix20.pdf",
+    "code": "https://github.com/Shawn-Shan/fawkes"
+  },
+  {
+    "key": "efficient_decision",
+    "name": "Efficient Decision",
+    "venue": "CVPR 2019",
+    "year": 2019,
+    "paradigm": "per_sample",
+    "evaluated": false,
+    "paper": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Dong_Efficient_Decision-Based_Black-Box_Adversarial_Attacks_on_Face_Recognition_CVPR_2019_paper.pdf",
+    "code": "https://github.com/sgmath12/efficient-decision-based-black-box-adversarial-attacks-on-face-recognition"
+  }
+]

@@ -1,0 +1,272 @@
+[
+ {
+  "key": "convnext-b_arcface_ms1m",
+  "backbone": "convnext-b",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "convnextv2-b_arcface_ms1m",
+  "backbone": "convnextv2-b",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "densenet-201_arcface_ms1m",
+  "backbone": "densenet-201",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "efficientnetv1-b4_arcface_ms1m",
+  "backbone": "efficientnetv1-b4",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_adaface_ms1m",
+  "backbone": "irse-100",
+  "loss": "adaface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_arcface_glint360k",
+  "backbone": "irse-100",
+  "loss": "arcface",
+  "dataset": "glint360k"
+ },
+ {
+  "key": "irse-100_arcface_ms1m",
+  "backbone": "irse-100",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_arcface_webface4m",
+  "backbone": "irse-100",
+  "loss": "arcface",
+  "dataset": "webface4m"
+ },
+ {
+  "key": "irse-100_centerloss_ms1m",
+  "backbone": "irse-100",
+  "loss": "centerloss",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_cosface_ms1m",
+  "backbone": "irse-100",
+  "loss": "cosface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_curricularface_ms1m",
+  "backbone": "irse-100",
+  "loss": "curricularface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_magface_ms1m",
+  "backbone": "irse-100",
+  "loss": "magface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_sphereface_ms1m",
+  "backbone": "irse-100",
+  "loss": "sphereface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_tripletloss_ms1m",
+  "backbone": "irse-100",
+  "loss": "tripletloss",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-100_uniface_ms1m",
+  "backbone": "irse-100",
+  "loss": "uniface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-18_arcface_ms1m",
+  "backbone": "irse-18",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-34_arcface_ms1m",
+  "backbone": "irse-34",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "irse-50_arcface_ms1m",
+  "backbone": "irse-50",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilefacenet_arcface_ms1m",
+  "backbone": "mobilefacenet",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilenet-w1_arcface_ms1m",
+  "backbone": "mobilenet-w1",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilenetv2-w1_arcface_ms1m",
+  "backbone": "mobilenetv2-w1",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilenetv3-l_arcface_ms1m",
+  "backbone": "mobilenetv3-l",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilenetv4conv-m_arcface_ms1m",
+  "backbone": "mobilenetv4conv-m",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilevit-s_arcface_ms1m",
+  "backbone": "mobilevit-s",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilevitv2-2.0_arcface_ms1m",
+  "backbone": "mobilevitv2-2.0",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilevitv3-2.0_arcface_ms1m",
+  "backbone": "mobilevitv3-2.0",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "mobilevitv3-s_arcface_ms1m",
+  "backbone": "mobilevitv3-s",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "resnet-100_arcface_ms1m",
+  "backbone": "resnet-100",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "resnetv2-100_arcface_ms1m",
+  "backbone": "resnetv2-100",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinmlp-b_arcface_ms1m",
+  "backbone": "swinmlp-b",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv1-b_arcface_ms1m",
+  "backbone": "swinv1-b",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_adaface_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "adaface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_arcface_glint360k",
+  "backbone": "swinv2-b",
+  "loss": "arcface",
+  "dataset": "glint360k"
+ },
+ {
+  "key": "swinv2-b_arcface_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_arcface_webface4m",
+  "backbone": "swinv2-b",
+  "loss": "arcface",
+  "dataset": "webface4m"
+ },
+ {
+  "key": "swinv2-b_centerloss_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "centerloss",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_cosface_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "cosface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_curricularface_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "curricularface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_magface_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "magface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_sphereface_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "sphereface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_tripletloss_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "tripletloss",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-b_uniface_ms1m",
+  "backbone": "swinv2-b",
+  "loss": "uniface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-l_arcface_ms1m",
+  "backbone": "swinv2-l",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-s_arcface_ms1m",
+  "backbone": "swinv2-s",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ },
+ {
+  "key": "swinv2-t_arcface_ms1m",
+  "backbone": "swinv2-t",
+  "loss": "arcface",
+  "dataset": "ms1m"
+ }
+]

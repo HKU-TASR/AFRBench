@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="548" viewBox="0 0 960 548" role="img" aria-labelledby="t d" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">AFRBench architecture</title>
+<desc id="d">AFRBench (data, jobs, FR system, protection and quality metrics) runs on AFRLib (training corpora, image distribution, the train, fit and protect stages, and FR models).</desc>
+<rect x="0.5" y="0.5" width="959" height="547" rx="12" fill="#ffffff" stroke="#d1d9e0"/>
+<rect x="22.0" y="16.0" width="916.0" height="236.0" rx="14" fill="#f3f4fc" stroke="#cdd1ea" stroke-width="1.0"/>
+<circle cx="44.0" cy="41.0" r="6" fill="#394cc6"/>
+<text x="58.0" y="46.0" font-size="16" fill="#202b6f" font-weight="600" text-anchor="start">AFRBench</text>
+<text x="146.0" y="46.0" font-size="12" fill="#59636e" text-anchor="start">the benchmark: one protocol for every method</text>
+<rect x="30.0" y="64.0" width="173.6" height="172.0" rx="10" fill="#ffffff" stroke="#727eca" stroke-width="1.3"/>
+<text x="42.0" y="84.0" font-size="9.5" fill="#3644a1" font-weight="600" text-anchor="start">DATASETS</text>
+<text x="42.0" y="104.0" font-size="14" fill="#1c255f" font-weight="600" text-anchor="start">Data</text>
+<text x="42.0" y="126.0" font-size="11.5" fill="#1f2328" text-anchor="start">50 protectees,</text>
+<text x="42.0" y="143.0" font-size="11.5" fill="#3d444d" text-anchor="start">100 hand-picked photos each</text>
+<text x="42.0" y="160.0" font-size="11.5" fill="#3d444d" text-anchor="start">5 HQ targets, 2,000-ID pool</text>
+<text x="42.0" y="177.0" font-size="11.5" fill="#3d444d" text-anchor="start">22.8M distractor faces</text>
+<text x="42.0" y="194.0" font-size="11.5" fill="#3d444d" text-anchor="start">AFRBench-DF: video frames</text>
+<rect x="211.6" y="64.0" width="173.6" height="172.0" rx="10" fill="#ffffff" stroke="#727eca" stroke-width="1.3"/>
+<text x="223.6" y="84.0" font-size="9.5" fill="#3644a1" font-weight="600" text-anchor="start">PROTOCOL</text>
+<text x="223.6" y="104.0" font-size="14" fill="#1c255f" font-weight="600" text-anchor="start">Jobs</text>
+<text x="223.6" y="126.0" font-size="11.5" fill="#1f2328" text-anchor="start">One YAML job per step,</text>
+<text x="223.6" y="143.0" font-size="11.5" fill="#3d444d" text-anchor="start">locked, resumable</text>
+<text x="223.6" y="160.0" font-size="11.5" fill="#3d444d" text-anchor="start">train, fit, protect, eval</text>
+<text x="223.6" y="177.0" font-size="11.5" fill="#3d444d" text-anchor="start">scenarios 1A, 1B, 2A, 2B</text>
+<rect x="393.2" y="64.0" width="173.6" height="172.0" rx="10" fill="#ffffff" stroke="#727eca" stroke-width="1.3"/>
+<text x="405.2" y="84.0" font-size="9.5" fill="#3644a1" font-weight="600" text-anchor="start">INTRUDER</text>
+<text x="405.2" y="104.0" font-size="14" fill="#1c255f" font-weight="600" text-anchor="start">FR system</text>
+<text x="405.2" y="126.0" font-size="11.5" fill="#1f2328" text-anchor="start">quantize, JPEG, resize</text>
+<text x="405.2" y="143.0" font-size="11.5" fill="#3d444d" text-anchor="start">RetinaFace, ArcFace align</text>
+<text x="405.2" y="160.0" font-size="11.5" fill="#3d444d" text-anchor="start">purifiers: median, GFPGAN,</text>
+<text x="405.2" y="177.0" font-size="11.5" fill="#3d444d" text-anchor="start">CodeFormer, DiffPure</text>
+<text x="405.2" y="194.0" font-size="11.5" fill="#3d444d" text-anchor="start">flip test-time augmentation</text>
+<rect x="574.8" y="64.0" width="355.2" height="172.0" rx="10" fill="#ffffff" stroke="#727eca" stroke-width="1.3"/>
+<text x="586.8" y="84.0" font-size="9.5" fill="#3644a1" font-weight="600" text-anchor="start">SCORING</text>
+<text x="586.8" y="104.0" font-size="14" fill="#1c255f" font-weight="600" text-anchor="start">Metrics</text>
+<rect x="586.8" y="116.0" width="159.6" height="108.0" rx="8" fill="#f0f1fa"/>
+<text x="596.8" y="138.0" font-size="12.5" fill="#202b6f" font-weight="600" text-anchor="start">Protection</text>
+<text x="596.8" y="160.0" font-size="11.5" fill="#3d444d" text-anchor="start">recall@K, AP, NDCG</text>
+<text x="596.8" y="177.0" font-size="11.5" fill="#3d444d" text-anchor="start">rank-k identification</text>
+<text x="596.8" y="194.0" font-size="11.5" fill="#3d444d" text-anchor="start">1,250 queries per run</text>
+<rect x="758.4" y="116.0" width="159.6" height="108.0" rx="8" fill="#f0f1fa"/>
+<text x="768.4" y="138.0" font-size="12.5" fill="#202b6f" font-weight="600" text-anchor="start">Visual quality</text>
+<text x="768.4" y="160.0" font-size="11.5" fill="#3d444d" text-anchor="start">PSNR, SSIM, MS-SSIM</text>
+<text x="768.4" y="177.0" font-size="11.5" fill="#3d444d" text-anchor="start">LPIPS, BRISQUE, NIQE</text>
+<text x="768.4" y="194.0" font-size="11.5" fill="#3d444d" text-anchor="start">FID per method</text>
+<line x1="204.1" y1="150.0" x2="211.1" y2="150.0" stroke="#5362c6" stroke-width="2"/>
+<polygon points="203.1,145.0 203.1,155.0 211.1,150.0" fill="#5362c6"/>
+<line x1="385.7" y1="150.0" x2="392.7" y2="150.0" stroke="#5362c6" stroke-width="2"/>
+<polygon points="384.7,145.0 384.7,155.0 392.7,150.0" fill="#5362c6"/>
+<line x1="567.3" y1="150.0" x2="574.3" y2="150.0" stroke="#5362c6" stroke-width="2"/>
+<polygon points="566.3,145.0 566.3,155.0 574.3,150.0" fill="#5362c6"/>
+<rect x="22.0" y="306.0" width="916.0" height="224.0" rx="14" fill="#f0faf9" stroke="#c1e1dd" stroke-width="1.0"/>
+<circle cx="44.0" cy="331.0" r="6" fill="#2e9e8f"/>
+<text x="58.0" y="336.0" font-size="16" fill="#145249" font-weight="600" text-anchor="start">AFRLib</text>
+<text x="920.0" y="336.0" font-size="12" fill="#59636e" text-anchor="end">the library: 26 methods behind one interface</text>
+<rect x="30.0" y="354.0" width="173.6" height="160.0" rx="10" fill="#ffffff" stroke="#72cabe" stroke-width="1.3"/>
+<text x="42.0" y="374.0" font-size="9.5" fill="#36a192" font-weight="600" text-anchor="start">DATA</text>
+<text x="42.0" y="394.0" font-size="14" fill="#1c5f56" font-weight="600" text-anchor="start">Training corpora</text>
+<text x="42.0" y="416.0" font-size="11.5" fill="#1f2328" text-anchor="start">MS1M, CASIA-WebFace,</text>
+<text x="42.0" y="433.0" font-size="11.5" fill="#3d444d" text-anchor="start">VGGFace2, MT, LADN,</text>
+<text x="42.0" y="450.0" font-size="11.5" fill="#3d444d" text-anchor="start">CelebAMask-HQ</text>
+<text x="42.0" y="467.0" font-size="11.5" fill="#3d444d" text-anchor="start">protectees filtered out</text>
+<rect x="211.6" y="354.0" width="173.6" height="160.0" rx="10" fill="#ffffff" stroke="#72cabe" stroke-width="1.3"/>
+<text x="223.6" y="374.0" font-size="9.5" fill="#36a192" font-weight="600" text-anchor="start">FORMATS</text>
+<text x="223.6" y="394.0" font-size="14" fill="#1c5f56" font-weight="600" text-anchor="start">Image distribution</text>
+<text x="223.6" y="416.0" font-size="11.5" fill="#1f2328" text-anchor="start">An ImageSpec per input:</text>
+<text x="223.6" y="433.0" font-size="11.5" fill="#3d444d" text-anchor="start">crop, align, size, range</text>
+<text x="223.6" y="450.0" font-size="11.5" fill="#3d444d" text-anchor="start">paste-back into the</text>
+<text x="223.6" y="467.0" font-size="11.5" fill="#3d444d" text-anchor="start">original photo</text>
+<rect x="393.2" y="354.0" width="355.2" height="160.0" rx="10" fill="#ffffff" stroke="#59c0b2" stroke-width="1.3"/>
+<text x="405.2" y="374.0" font-size="9.5" fill="#2e8a7d" font-weight="600" text-anchor="start">METHODS</text>
+<text x="405.2" y="394.0" font-size="14" fill="#145249" font-weight="600" text-anchor="start">Three stages, one contract</text>
+<rect x="405.2" y="408.0" width="97.1" height="62.0" rx="8" fill="#e9f7f5" stroke="#94d1c9" stroke-width="1.0"/>
+<text x="415.2" y="428.0" font-size="13.5" fill="#145249" font-weight="600" text-anchor="start">train</text>
+<text x="415.2" y="445.0" font-size="11" fill="#3d444d" text-anchor="start">the population</text>
+<text x="415.2" y="460.0" font-size="10" fill="#59636e" text-anchor="start">corpus, target</text>
+<line x1="505.3" y1="439.0" x2="519.3" y2="439.0" stroke="#39ac9d" stroke-width="2"/>
+<polygon points="511.3,434.0 511.3,444.0 519.3,439.0" fill="#39ac9d"/>
+<rect x="522.3" y="408.0" width="97.1" height="62.0" rx="8" fill="#e9f7f5" stroke="#94d1c9" stroke-width="1.0"/>
+<text x="532.3" y="428.0" font-size="13.5" fill="#145249" font-weight="600" text-anchor="start">fit</text>
+<text x="532.3" y="445.0" font-size="11" fill="#3d444d" text-anchor="start">one protectee</text>
+<text x="532.3" y="460.0" font-size="10" fill="#59636e" text-anchor="start">album photos</text>
+<line x1="622.3" y1="439.0" x2="636.3" y2="439.0" stroke="#39ac9d" stroke-width="2"/>
+<polygon points="628.3,434.0 628.3,444.0 636.3,439.0" fill="#39ac9d"/>
+<rect x="639.3" y="408.0" width="97.1" height="62.0" rx="8" fill="#e9f7f5" stroke="#94d1c9" stroke-width="1.0"/>
+<text x="649.3" y="428.0" font-size="13.5" fill="#145249" font-weight="600" text-anchor="start">protect</text>
+<text x="649.3" y="445.0" font-size="11" fill="#3d444d" text-anchor="start">any photo</text>
+<text x="649.3" y="460.0" font-size="10" fill="#59636e" text-anchor="start">photo in, photo out</text>
+<text x="405.2" y="488.0" font-size="11" fill="#3d444d" text-anchor="start">Each method declares the inputs its stages read,</text>
+<text x="405.2" y="504.0" font-size="11" fill="#3d444d" text-anchor="start">so callers never branch on the method.</text>
+<rect x="756.4" y="354.0" width="173.6" height="160.0" rx="10" fill="#ffffff" stroke="#72cabe" stroke-width="1.3"/>
+<text x="768.4" y="374.0" font-size="9.5" fill="#36a192" font-weight="600" text-anchor="start">TARGETS</text>
+<text x="768.4" y="394.0" font-size="14" fill="#1c5f56" font-weight="600" text-anchor="start">FR models</text>
+<text x="768.4" y="416.0" font-size="11.5" fill="#1f2328" text-anchor="start">FRBench: 45+ models</text>
+<text x="768.4" y="433.0" font-size="11.5" fill="#3d444d" text-anchor="start">FaceNet, or your own,</text>
+<text x="768.4" y="450.0" font-size="11.5" fill="#3d444d" text-anchor="start">injected as attack</text>
+<text x="768.4" y="467.0" font-size="11.5" fill="#3d444d" text-anchor="start">surrogates</text>
+<line x1="298.4" y1="238.0" x2="298.4" y2="352.0" stroke="#5362c6" stroke-width="2"/>
+<polygon points="293.4,344.0 303.4,344.0 298.4,352.0" fill="#5362c6"/>
+<text x="308.4" y="299.0" font-size="11" fill="#59636e" text-anchor="start">original photos, roles</text>
+<line x1="480.0" y1="352.0" x2="480.0" y2="238.0" stroke="#39ac9d" stroke-width="2"/>
+<polygon points="475.0,246.0 485.0,246.0 480.0,238.0" fill="#39ac9d"/>
+<text x="490.0" y="299.0" font-size="11" fill="#59636e" text-anchor="start">protected photos</text>
+</svg>
